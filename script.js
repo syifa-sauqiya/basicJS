@@ -1,8 +1,11 @@
-const siswa= {
+const siswa1= {
     nama: "Andi",
     kelas: "X SIJA B",
     umur: 16,
-    alamat: "Jl. Pejaten 1, Banyumas",
+    alamat: {
+        jalan: "Jl. Mawar 16",
+        kota: "Badui"
+    },
     nomorHPku: 629682077488
 
 };
@@ -16,5 +19,10 @@ const siswa2= {
 
 };
 
-console.log(siswa.nama);
-console.log(siswa.nomorHPku);
+const siswa = [
+    { nama: "Andi", kelas: "X SIJA" },
+    { nama: "Budi", kelas: "X SIJA" },
+    { nama: "Citra", kelas: "X SIJA" }
+];
+
+console.log(siswa[0]);
