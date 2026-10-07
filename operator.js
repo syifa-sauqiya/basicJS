@@ -46,4 +46,4 @@ let Jumlahsiswa = 10;
 let Ratarata = TotalrataRata /Jumlahsiswa;
 console.log(Ratarata);              
 
-
+               
