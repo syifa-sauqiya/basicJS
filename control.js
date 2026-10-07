@@ -11,11 +11,31 @@
 // } else{
 //     console.log("belum boleh bikin KTP")
 // }
-let berat = 501;
-if ( berat >400, berat<=500) {
-    console.log("Kayu-nya ", berat, "KG", "=", "Berat")
-} else if( berat <400) {
-    console.log("Kayu-nya", berat, "KG", "=", "Ringan")
-} else{ (berat >500)
-    console.log("Kayu-nya", berat, "KG", "=", "Overweight")
+// let kayu = 600;
+// if (kayu > 500) {
+//     console.log("Berat Kayunya " + kayu + "KG");
+//     console.log("Kayunya Overweight");
+
+// } else if( kayu > 400) {
+//     console.log("Berat Kayunya " + kayu + "KG");
+//     console.log("Kayunya Berat");
+
+// } else { 
+//     console.log("Berat Kayunya " + kayu + "KG");
+//     console.log("Kayunya ringan");
+// }
+
+let menu = "Telur asin";
+if ( menu == "Chicken katsu") {
+    console.log ("Menunya " + menu)
+    console.log ("kalian makan")
+} else if ( menu == "Telur asin") {
+    console.log ("Menunya " + menu)
+    console.log ("kalian cicipi")
+} else {
+    console.log("Menunya " + menu) 
+    console.log ("tidak makan")
+
 }
+
+    
