@@ -84,7 +84,7 @@
 // } else {
 //     console.log("Ganjil")
 // }
-
+ 
 let nama = ["Andi" , "Budi", "Citra"];
 if (nama[2] === "Andi") {
     console.log ("Nama ditemukan");
