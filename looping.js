@@ -30,7 +30,41 @@
 
 // let nama = ["Andi", "Budi", "Citra", "Doni", "Husna", "Novda", "Syifa", "Nailah", "Uzma", "Zaid"];
 // for (let i = 0; i < nama.length ; i++) {
-//     console.log
+//     console.log( ${i+1}.,nama[i]);
 // }
 
-let nilai = [80, 65, 90, 55, 75];
+// let nilai =[80 , 65, 90, 55, 75];
+// for(let i = 0; i < nilai.length; i++ )
+//     if (nilai[i] >=75){
+//         console.log("Nilainya " + nilai[i] + " = - LULUS");
+//     }else {
+//         console.log("Nilainya " + nilai[i]+ " = - TIDAK LULUS");
+//     }
+
+// let nilai =[80 , 65, 90, 55, 75];
+// for(let i = 0; i < nilai.length; i++ )
+//     if (nilai[i] >=75){
+//         console.log("Nilainya " + nilai[i] + " = - LULUS");
+//     }else {
+//         console.log("Nilainya " + nilai[i]+ " = - TIDAK LULUS");
+//     } 
+
+// let nilai =[80 , 65, 90, 55, 75];
+// for(let i = 0; i < nilai.length; i++ )
+//     if (nilai[i] >=90){
+//         console.log("Nilainya " + nilai[i] + " = SANGAT BAGUS");
+//     }else if (nilai[i]>=80 ) {
+//         console.log("Nilainya " + nilai[i]+ " = BAGUS");
+//     } else {console.log("Nilainya " + nilai[i]+ " = CUKUP"); }
+
+// let nama = ["andi","budi","citra","doni","Eka"];
+// let nilai = [85, 60, 90, 75, 80];
+// for ( let i = 0; i < nilai.length; i++ );
+// if (nilai >=75){
+//          console.log(nama[i] +  "- " + nilai[i] + "- " + "lulus");
+//      } else {console.log(nama[i] +  "- " + nilai[i] + "- " + "tidak lulus"); }
+      
+
+let angka = [12, 7, 20, 15, 8, 3, 14, 9];
+for (let i = 0; i<=7; i++);
+if (angka[i] % 2===0 && angka [i] >=10) ; { console.log (angka[i]) + "- " + "Genap" + "- " + ">=10"}
