@@ -58,13 +58,33 @@
 //     } else {console.log("Nilainya " + nilai[i]+ " = CUKUP"); }
 
 // let nama = ["andi","budi","citra","doni","Eka"];
-// let nilai = [85, 60, 90, 75, 80];
-// for ( let i = 0; i < nilai.length; i++ );
-// if (nilai >=75){
-//          console.log(nama[i] +  "- " + nilai[i] + "- " + "lulus");
-//      } else {console.log(nama[i] +  "- " + nilai[i] + "- " + "tidak lulus"); }
+// let nilai = [85 , 60 , 90 , 72, 45];
+// for ( let i = 0; i < nilai.length; i++ )
+// if (nilai[i]>=75){
+//          console.log(nama[i] +  " - " + nilai[i] + " - " + "lulus");
+//      } else {console.log(nama[i] +  " - " + nilai[i] + " - " + "tidak lulus"); }
       
 
+// let angka = [12, 7, 20, 15, 8, 3, 14, 9];
+// for (let i = 0; i<angka.length; i++);
+// if (angka[i] % 2===0 && angka [i] >=10) ; { console.log (angka[i]) + "- " + "Genap" + "- " + ">=10"}
+
+// let nama = ["Andi" , "Budi" , "citra" , "Doni" , "Eka"];
+// let nilai = [85 , 60 , 90 , 72, 45];
+// for (let i = 0; i < nilai.length; i++)
+//     if (nilai [i] >=75){
+//     console.log(nama[i] + " - "  + nilai[i] + " - LULUS");
+// }else console.log(nama[i] + " - " + nilai[i] + " - TIDAK LULUS");
+
 let angka = [12, 7, 20, 15, 8, 3, 14, 9];
-for (let i = 0; i<=7; i++);
-if (angka[i] % 2===0 && angka [i] >=10) ; { console.log (angka[i]) + "- " + "Genap" + "- " + ">=10"}
+for (let i = 0; i<angka.length; i++) {
+    if (angka[i] % 2 === 0 && angka [i]>=10)
+    {console.log (angka[i] + " - " + "Genap" + " - " + ">=10");}
+    else if  (angka[i] % 2 !== 0 && angka [i]>=10)
+      { console.log (angka[i] + " - " + "Ganjil" + " - " + ">=10"); }
+    else if (angka[i] % 2 === 0 && angka[i] < 10) 
+        {console.log(angka[i] + " - " + " Genap " + " - "  + "<10");}
+    else if (angka[i] % 2 !== 0 && angka[i] < 10) {
+        console.log(angka[i] + " - " + " Ganjil " + " - "  + "<10");
+} }
+
