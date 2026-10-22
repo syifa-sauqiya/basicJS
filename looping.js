@@ -88,3 +88,15 @@ for (let i = 0; i<angka.length; i++) {
         console.log(angka[i] + " - " + " Ganjil " + " - "  + "<10");
 } }
 
+// salam("Syifa");
+// salam("Uzma");
+
+// function anakMamah (siapa) {
+//     console.log ("Hai aku " + siapa);
+// }
+// siapa("naurah);
+// siapa(syifa);
+// siapa(uzma);
+// siapa(zaid);
+// siapa(kamil);
+// siapa(khaulah);
