@@ -127,15 +127,29 @@
 
 // console.log(umur); //error
 
-let berat = 70;
-function tampilkanBeratbadan () {
-    let berat2 = 70;
-    console.log(berat);
-    console.log(berat2);
-}
-tampilkanBeratbadan()
+// let beratBadan = 70;
+// function tampilkanBeratbadan () {
+//     let beratBadan2 = 70;
+//     console.log(beratBadan);
+//     console.log(beratBadan2);
+// }
+// tampilkanBeratbadan()
+// console.log(beratBadan)
+// console.log(beratBadan2) //error
 
+// let beratBadan = 70;
+// function tampilkanBeratBadan() {
+//   console.log("Berat badan: " + beratBadan + " kg");
+// }
+// tampilkanBeratBadan();    
+// console.log(beratBadan);  
 
+// function tampilkanBeratBadan() {
+//   let beratBadan = 70;
+//   console.log("Berat badan: " + beratBadan + " kg");
+// }
+// tampilkanBeratBadan();    
+// console.log(beratBadan);  
 
 
 
