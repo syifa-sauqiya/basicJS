@@ -72,18 +72,94 @@
 
 // console.log (sisaTicket)                      
                              
-const siswa = [
-    {nama : "Andi", nilai : 80},
-    {nama : "Budi", nilai : 65},
-    {nama : "Citra", nilai : 90},
-    {nama : "Dina", nilai : 75},
-    {nama : "Eko", nilai : 85},
+// const siswa = [
+//     {nama : "Andi", nilai : 80},
+//     {nama : "Budi", nilai : 65},
+//     {nama : "Citra", nilai : 90},
+//     {nama : "Dina", nilai : 75},
+//     {nama : "Eko", nilai : 85},
+// ];
+
+// siswa.forEach((siswa) => {
+//     if (siswa.nilai >= 75) {
+//         console.log (siswa.nama + " - " + siswa.nilai + " - Lulus");
+//     } else {
+//         console.log(siswa.nama + " - " + siswa.nilai + " - Remedial")
+//     }
+// });
+
+const produk = [
+    { nama: "Mouse", harga : 100000 },
+    { nama: "Keyboard", harga : 150000 },
+    { nama: "Headset", harga : 150000 },
+    { nama: "Flashdisk", harga : 50000 },
+    { nama: "Webcam", harga : 250000 },
+
 ];
 
-siswa.forEach((siswa) => {
-    if (siswa.nilai >= 75) {
-        console.log (siswa.nama + " - " + siswa.nilai + " - Lulus");
-    } else {
-        console.log(siswa.nama + " - " + siswa.nilai + " - Remedial")
-    }
+// const hargaPromo = produk.map ((produk) => {
+//     return produk.nama + produk.harga - (produk.harga * 0.10) })
+// console.log ( hargaPromo)
+
+const calonAnggota = [
+    { nama : "Andi", nilai : 85, kehadiran : 90 },
+    { nama : "Budi", nilai : 75, kehadiran : 95 },
+    { nama : "Citra", nilai : 90, kehadiran : 85 },
+    { nama : "Dina", nilai : 80, kehadiran : 70 },
+    { nama : "Eko", nilai : 88, kehadiran : 100 },
+    { nama : "Fajar", nilai : 70, kehadiran : 75 },
+];
+// const anggotaLolos = calonAnggota.filter ((lolos) => 
+//     lolos.nilai >=80 && lolos.kehadiran >=80 )
+//     anggotaLolos.forEach((siswa) => {
+//     console.log(siswa.nama)
+//     });
+
+//     console.log("Jumlah anggota yang lulus seleksi : " + anggotaLolos.length);
+// const anggotaLolos = calonAnggota.filter ((lolos) => 
+//     lolos.nilai >=80 && lolos.kehadiran >=80 )
+//     anggotaLolos.forEach((siswa) => {
+//     console.log(siswa.nama)
+//     });
+
+//     console.log("Jumlah anggota yang lulus seleksi : " + anggotaLolos.length);
+
+// const anggotaLolos = calonAnggota.filter((siswa) => {
+//     return siswa.nilai >=80 && siswa.kehadiran >=80 ;
+// });
+
+// anggotaLolos.forEach((siswa) => {
+//     console.log(siswa.nama);
+// });
+
+// console.log("");
+
+// console.log (`Jumlah anggota yang lolos: ${anggotaLolos.length}`)
+
+const inventaris = [
+    { kode : "PC001", nama : "Komputer 1", kondisi : "Baik" },
+    { kode : "PC002", nama : "Komputer 2", kondisi : "Rusak" },
+    { kode : "PC003", nama : "Komputer 3", kondisi : "Baik" },
+    { kode : "PC004", nama : "Komputer 4", kondisi : "Perbaikan" },
+    { kode : "PC005", nama : "Komputer 5", kondisi : "Baik" },
+    
+];
+
+const hasilCari = inventaris.find((item) => {
+    return item.kode === "PC003";
+
 });
+
+if (hasilCari) {
+    console.log ("Nama perangkat : " + hasilCari.nama)
+    console.log ("Kondisi : " + hasilCari.kondisi)
+} else {
+    console.log ("Perangkat tidak ditemukan")
+}
+
+
+// if (hasilCari) {
+//     console.log(`Nama perangkat: ${hasilCari.nama}`);
+//     console.log(`Kondisi: ${hasilCari.kondisi}`);
+    
+// } else console.log ("Perangkat tidak ditemukan")
