@@ -1,6 +1,6 @@
 let a = 11;
 let b = 5;
-hasill = a%b;
+hasil = a%b;
 
 
 // console.log("Hasilnya " + hasil);
@@ -10,7 +10,7 @@ let umur = "15";
 // console.log(umur === "15");
 
 let x = 5;
-// console.log(x**= 3 );
+console.log(x**= 3 );
 
 let angka = 10;
 angka++;
@@ -44,6 +44,8 @@ let TotalrataRata = NilairataRata[0] + NilairataRata[1] +
 NilairataRata[2] + NilairataRata[3] + NilairataRata[4] + NilairataRata[5] + NilairataRata[6] + NilairataRata[7] + NilairataRata[8] + NilairataRata[9]
 let Jumlahsiswa = 10;
 let Ratarata = TotalrataRata /Jumlahsiswa;
-console.log(Ratarata);              
+console.log(Ratarata);        
+
+
 
                

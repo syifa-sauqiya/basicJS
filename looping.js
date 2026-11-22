@@ -33,13 +33,13 @@
 //     console.log( ${i+1}.,nama[i]);
 // }
 
-// let nilai =[80 , 65, 90, 55, 75];
-// for(let i = 0; i < nilai.length; i++ )
-//     if (nilai[i] >=75){
-//         console.log("Nilainya " + nilai[i] + " = - LULUS");
-//     }else {
-//         console.log("Nilainya " + nilai[i]+ " = - TIDAK LULUS");
-//     }
+let nilai =[80 , 65, 90, 55, 75];
+for(let i = 0; i < nilai.length; i++ )
+    if (nilai[i] >=75){
+        console.log("Nilainya " + nilai[i] + " = - LULUS");
+    }else {
+        console.log("Nilainya " + nilai[i]+ " = - TIDAK LULUS");
+    }
 
 // let nilai =[80 , 65, 90, 55, 75];
 // for(let i = 0; i < nilai.length; i++ )

@@ -109,11 +109,11 @@ const calonAnggota = [
     { nama : "Eko", nilai : 88, kehadiran : 100 },
     { nama : "Fajar", nilai : 70, kehadiran : 75 },
 ];
-// const anggotaLolos = calonAnggota.filter ((lolos) => 
-//     lolos.nilai >=80 && lolos.kehadiran >=80 )
-//     anggotaLolos.forEach((siswa) => {
-//     console.log(siswa.nama)
-//     });
+const anggotaLolos = calonAnggota.filter ((lolos) => 
+    lolos.nilai >=80 && lolos.kehadiran >=80 )
+    anggotaLolos.forEach((siswa) => {
+    console.log(siswa.nama)
+    });
 
 //     console.log("Jumlah anggota yang lulus seleksi : " + anggotaLolos.length);
 // const anggotaLolos = calonAnggota.filter ((lolos) => 
@@ -163,3 +163,8 @@ if (hasilCari) {
 //     console.log(`Kondisi: ${hasilCari.kondisi}`);
     
 // } else console.log ("Perangkat tidak ditemukan")
+
+console.log(
+` Nama: ${namaSiswa.trim().toUpperCase()},
+ Kelas: ${kelasSiswa.toUpperCase()}, 
+ Email: ${emailSiswa.trim().toLowerCase()}`);
