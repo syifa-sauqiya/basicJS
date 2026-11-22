@@ -151,14 +151,14 @@
 // tampilkanBeratBadan();    
 // console.log(beratBadan);  
 
-const siswa5 = [
-        {nama : "Andi", email : "andi@gmail.com", umur: 17},
-        {nama : "Budi", email : "budi@yahoo.com", umur: 17},
-        {nama : "Citra", email : "citra@gmail.com", umur: 17}
-    ];
+// const siswa5 = [
+//         {nama : "Andi", email : "andi@gmail.com", umur: 17},
+//         {nama : "Budi", email : "budi@yahoo.com", umur: 17},
+//         {nama : "Citra", email : "citra@gmail.com", umur: 17}
+//     ];
 
-    const siswaHasil = siswa5.filter (user => 
-    user.email.endsWith("@gmail.com")
-);
-console.log(siswaHasil)
+//     const siswaHasil = siswa5.filter (user => 
+//     user.email.endsWith("@gmail.com")
+// );
+// console.log(siswaHasil)
 
